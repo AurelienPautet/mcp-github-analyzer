@@ -1,7 +1,7 @@
 {
   "name": "MCP GitHub Analyzer Dev Container",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
-  "postCreateCommand": "npm install -g pnpm && pnpm install",
+  "postCreateCommand": "npm install -g pnpm && pnpm install && pnpm dev",
   "customizations": {
     "vscode": {
       "settings": {},
